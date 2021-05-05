@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import AllUsers from '../components/AllUsers'
 import Layout from '../components/Layout'
 
 const IndexPage = () => (
@@ -9,6 +10,7 @@ const IndexPage = () => (
         <a>About</a>
       </Link>
     </p>
+    <AllUsers />
   </Layout>
 )
 
