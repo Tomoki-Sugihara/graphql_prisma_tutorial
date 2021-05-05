@@ -8,7 +8,11 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "@nexus/schema": "^0.20.1",
+    "@prisma/client": "^2.21.2",
+    "apollo-server-micro": "^2.24.0",
     "next": "latest",
+    "nexus-plugin-prisma": "^0.34.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
@@ -16,6 +20,7 @@
     "@types/node": "^12.12.21",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
+    "prisma": "^2.21.2",
     "typescript": "4.0"
   },
   "license": "MIT"
